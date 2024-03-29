@@ -12,12 +12,13 @@ Created common function for fetching mock datas from [jsonplaceholder API](https
 
 ### Arguments for Rendering types:
 
-**`SSR`** - { cache: 'no-store' }
-**`ISR`** - { next: { revalidate: 2 } } **Note: 2 is referred as a Seconds not Milliseconds**
+**`SSR`** - { cache: 'no-store' } <br/>
+**`ISR`** - { next: { revalidate: 2 } } **Note: 2 is referred as a Seconds not Milliseconds** <br/>
 **`SSG`** - { cache: 'force-cache' }
 
 ### Typescript
 
-**Set type for todos component props**
-**Set type for todos data list**
+**Created separate file for defining types** <br/>
+Defined type for todos component props <br/>
+Defined type for todos data list
 
